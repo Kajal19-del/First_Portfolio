@@ -52,6 +52,7 @@ The goal of this project is to build a straightforward, responsive, single-page 
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- Figma
 - HTML & CSS
 - Git, Github and Visual Studio Code
 
@@ -75,7 +76,7 @@ To get a local copy up and running follow these simple example steps.
 - Choose a directory
 - Open a Terminal
 - write: git clone https://github.com/Kajal19-del/First_Portfolio
-- get into to directory "hello-microverse"
+- get into to directory "First-Portfolio"
 - write: npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
