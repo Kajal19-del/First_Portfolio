@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #e5e5e5;
 }
 
 .nav-bar {
@@ -28,23 +29,16 @@ body {
   text-decoration: none;
 }
 
-.hambug-menu {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-
 header {
-  background-image: url(./images/header-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #fff;
+  border-bottom-left-radius: 80px;
 }
 
 .head-section {
+  background-image: url(./images/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding: 115px 24px 115px 24px;
 }
 
@@ -83,4 +77,223 @@ header {
   align-items: flex-start;
   justify-content: space-between;
   list-style: none;
+}
+
+/* ============ main section ============ */
+.container-main {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 88px;
+  padding: 114px 24px;
+}
+
+.section-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.portfolios {
+  width: 295px;
+  height: 220px;
+}
+
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.section-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.optionBold {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 16px;
+  color: #344563;
+  margin: 0;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.options {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 16px;
+  color: #7a869a;
+  margin: 0;
+}
+
+.section-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+}
+
+.section-skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  gap: 8px;
+  padding-left: 0;
+}
+
+.skills {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.btn-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  color: #396df2;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+/* ============ button effects ============ */
+.btn-text:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btn-text:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+/* ============ footer-section ============ */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-right-radius: 80px;
+  padding: 114px 24px;
+  background-color: #fff;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.portfolio-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skill-lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-language {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.arrow {
+  border: solid #acb7c3;
+  border-width: 0 3px 3px 0;
+  display: block;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.skill-lists {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding-left: 14px;
+}
+
+.skill-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.skill-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  padding: 24px 0 24px 16px;
+  margin: 0;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #dfe1e6;
 }
