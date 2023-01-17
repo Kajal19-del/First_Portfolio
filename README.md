@@ -92,6 +92,11 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/Kajal19-del)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kajal-pramanik-234a93173/)
 
+👤 **Yoseph Addisu**
+
+- GitHub: [@githubhandle](https://github.com/yosaddis)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,6 +131,8 @@ I would like to thank...
 Abraham
 
 Ekene
+
+Yoseph Addisu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
