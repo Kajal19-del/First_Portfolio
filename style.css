@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   margin: 0;
   background-color: #e5e5e5;
@@ -360,6 +358,7 @@ form {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+  padding: 2%;
   height: 48px;
   width: 100%;
 }
@@ -373,11 +372,11 @@ form {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+  padding: 2%;
   width: 100%;
 }
 
 .form-button {
-  width: 100%;
   background: #fff;
   border: 1px solid #7f8cff;
   border-radius: 8px;
