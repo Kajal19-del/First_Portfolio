@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -26,36 +27,42 @@ body {
   text-decoration: none;
 }
 
+.nav-links {
+  display: none;
+}
+
 header {
   background-color: #fff;
   border-bottom-left-radius: 80px;
 }
 
 .head-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 115px 24px 115px 24px;
   background-image: url(./images/header-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 115px 24px 115px 24px;
 }
 
 .header-title {
-  width: 327px;
-  height: 150px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin: 0;
 }
 
 .header-text {
-  width: 327px;
-  height: 146px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin: 0;
 }
 
 .portfolio-social-text {
@@ -72,6 +79,7 @@ header {
 .social-icon ul {
   width: 170px;
   padding: 0;
+  margin: 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -100,6 +108,17 @@ header {
 .portfolios {
   width: 295px;
   height: 220px;
+}
+
+.desk-img {
+  display: none;
+}
+
+.label-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .section-title {
@@ -227,6 +246,7 @@ header {
 
 .title {
   font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
   margin: 0;
 }
@@ -248,6 +268,7 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  padding: 24px 0 24px 12px;
 }
 
 .arrow {
@@ -272,7 +293,8 @@ header {
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 0;
+  padding: 12px;
+  margin: 0;
   gap: 12px;
 }
 
@@ -282,11 +304,6 @@ header {
   background: #f7f7f9;
   border-radius: 8px;
   padding-left: 14px;
-}
-
-.skill-icon {
-  width: 48px;
-  height: 48px;
 }
 
 .skill-name {
@@ -313,6 +330,9 @@ header {
   background-color: #6070ff;
   border-top-left-radius: 80px;
   padding: 114px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   background-image: url(./images/contact-background.png);
   background-size: 60%;
   background-position: top right;
@@ -322,11 +342,11 @@ header {
 .contact-title {
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   text-align: center;
-  line-height: 44px;
+  line-height: 52px;
   color: #fff;
-  margin: 0 0 12px 0;
+  margin: 0;
 }
 
 .contact-text {
@@ -403,4 +423,202 @@ form {
   background: #2230d2;
   border-radius: 8px;
   color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* ============ nav bar ============ */
+  nav {
+    padding: 0 143px 48px 143px;
+  }
+
+  .nav-bar {
+    padding: 10px 0;
+  }
+
+  .hambug-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+  }
+
+  .links {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding: 10px 12px;
+  }
+
+  /* ============ header ============ */
+  .head-section {
+    background-image: url("./images/Desktop-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    padding: 289px 15% 289px 15%;
+  }
+
+  .header-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
+
+  .desk-break {
+    display: block;
+  }
+
+  .header-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  /* ============ work section ============ */
+  .work-section {
+    padding: 142px;
+    gap: 142px;
+  }
+
+  .section-label {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    padding: 24px;
+  }
+
+  .desk-content {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 22px;
+    padding: 24px;
+  }
+
+  .desk-img {
+    display: block;
+  }
+
+  .portfolios {
+    display: none;
+  }
+
+  .label-inside {
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .desk-none {
+    display: none;
+  }
+
+  .desk-title {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin: 0;
+  }
+
+  .optionBold {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .options {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .section-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    padding: 0;
+  }
+
+  /* ============ About Section ============ */
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 142px;
+  }
+
+  .about {
+    width: 70%;
+  }
+
+  .skill-lists {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .skill-icon {
+    padding: 12px 62px 16px 12px;
+  }
+
+  .skill-name {
+    padding: 0 0 20px 12px;
+  }
+
+  /* ============ contact form ============ */
+  .contact-form {
+    background-image: url(./images/Desktop-bg2.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-text {
+    width: 50%;
+  }
+
+  form {
+    gap: 27px;
+  }
+
+  .form {
+    width: 40%;
+  }
+
+  .form-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
