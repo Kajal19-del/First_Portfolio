@@ -48,7 +48,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [first-portfolio] <a name="about-project"></a>
-The goal of this project is to build a straightforward, responsive, single-page portfolio that will hold all of the past personal projects. You must configure the HTML-CSS linter for this project in accordance with the instructions provided in the HTML-CSS setup instructions and build the website with mobile users in mind.
+The goal of this project is to build a straightforward, responsive, single-page portfolio that will hold all of the past personal projects. You must configure the HTML-CSS linter for this project in accordance with the instructions provided in the HTML-CSS setup instructions and build the website with mobile & desktop users in mind.
 
 ## 🛠 Built With <a name="built-with"></a>
 
