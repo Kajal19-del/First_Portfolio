@@ -25,6 +25,11 @@ body {
   color: #6070ff;
   line-height: 20px;
   text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.logo:hover {
+  transform: translate(10px, 6px);
 }
 
 .nav-links {
@@ -426,6 +431,7 @@ form {
 }
 
 @media (min-width: 768px) {
+
   /* ============ nav bar ============ */
   nav {
     padding: 0 143px 48px 143px;
