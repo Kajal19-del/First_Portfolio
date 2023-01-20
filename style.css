@@ -236,17 +236,20 @@ header {
   border: 1px solid #6070ff;
   cursor: pointer;
   margin: 12px 0;
+  transition: all 0.4s ease-in-out;
 }
 
 /* ============ button effects ============ */
 .btn-text:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: translate(10px, 6px);
 }
 
 .btn-text:active {
   background-color: #2230d2;
   color: #fff;
+  transition: all 0.4s ease-in-out;
 }
 
 /* ============ about-section ============ */
@@ -475,6 +478,10 @@ form {
     line-height: 20px;
     color: #344563;
     padding: 10px 12px;
+  }
+
+  .links:hover {
+    transform: scale(1.5);
   }
 
   /* ============ header ============ */
