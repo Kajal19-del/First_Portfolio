@@ -32,6 +32,15 @@ body {
   transform: translate(10px, 6px);
 }
 
+.hambug-menu {
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+
+.hambug-menu:hover {
+  transform: rotate(3.142rad);
+}
+
 .nav-links {
   display: none;
 }
