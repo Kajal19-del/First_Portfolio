@@ -100,6 +100,14 @@ header {
   list-style: none;
 }
 
+.social-icon ul li {
+  transition: all 0.4s ease-in-out;
+}
+
+.social-icon ul li:hover {
+  transform: scale(1.5);
+}
+
 /* ============ work section ============ */
 .work-section {
   display: grid;
