@@ -38,6 +38,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
@@ -56,6 +57,12 @@ The goal of this project is to build a straightforward, responsive, single-page 
 - HTML & CSS
 - Git, Github and Visual Studio Code
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://kajal19-del.github.io/First_Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
