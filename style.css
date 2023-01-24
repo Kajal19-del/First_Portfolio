@@ -22,7 +22,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  color: #6070ff;
+  color: #5564eb;
   line-height: 20px;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
@@ -86,7 +86,7 @@ header {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
-  color: #7f8cff;
+  color: #4d5bd9;
   margin: 0;
 }
 
@@ -185,7 +185,7 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 16px;
-  color: #7a869a;
+  color: #454b54;
   margin: 0;
 }
 
@@ -215,7 +215,7 @@ header {
   text-align: center;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #5564eb;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -233,7 +233,7 @@ header {
   color: #396df2;
   background: transparent;
   border-radius: 8px;
-  border: 1px solid #6070ff;
+  border: 1px solid #5564eb;
   cursor: pointer;
   margin: 12px 0;
   transition: all 0.4s ease-in-out;
@@ -241,7 +241,7 @@ header {
 
 /* ============ button effects ============ */
 .btn-text:hover {
-  background-color: #6070ff;
+  background-color: #5564eb;
   color: #fff;
   transform: translate(10px, 6px);
 }
@@ -352,7 +352,7 @@ header {
 }
 
 .contact-form {
-  background-color: #6070ff;
+  background-color: #5564eb;
   border-top-left-radius: 80px;
   padding: 114px 24px;
   display: flex;
@@ -423,7 +423,7 @@ form {
 
 .form-button {
   background: #fff;
-  border: 1px solid #7f8cff;
+  border: 1px solid #4d5bd9;
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
@@ -431,13 +431,13 @@ form {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #5564eb;
   padding: 12px;
 }
 
 /* ============ button effects ============ */
 .form-button:hover {
-  background: #6070ff;
+  background: #5564eb;
   border: 1px solid #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
