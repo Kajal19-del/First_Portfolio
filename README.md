@@ -104,6 +104,11 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/yosaddis)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60/)
 
+👤 **Matee Safi**
+
+- GitHub: [@githubhandle](https://github.com/matee-safi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/matee-safi-755421243/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
