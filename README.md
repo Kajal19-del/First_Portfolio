@@ -64,6 +64,10 @@ The goal of this project is to build a straightforward, responsive, single-page 
 
 - [Live Demo Link](https://kajal19-del.github.io/First_Portfolio/)
 
+## 🚀 Live Video <a name="live-video"></a>
+
+- [Live Video Link](https://www.loom.com/share/69cba37ed0844cf7aeabd0190ba5dc2e)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
