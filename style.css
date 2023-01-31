@@ -33,12 +33,55 @@ body {
 }
 
 .hambug-menu {
-  display: block;
-  transition: all 0.4s ease-in-out;
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  cursor: pointer;
+  border: none;
+  background: none;
 }
 
-.hambug-menu:hover {
-  transform: rotate(3.142rad);
+.closeIcon {
+  display: none !important;
+  color: #fff;
+}
+
+.menuIcon {
+  color: #6070ff;
+}
+
+.mobile-menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  margin-top: 0;
+  height: 100vh;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-links {

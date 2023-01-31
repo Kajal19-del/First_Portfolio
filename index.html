@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kajal full-stack webdeveloper</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   
@@ -13,7 +14,16 @@
     <nav>
       <div class="nav-bar">
         <a href="#" class="logo">Kajal</a>
-        <a href="#" class="hambug-menu"><img src="./images/menu.svg" alt="menu"></a>
+        <button class="hambug-menu">
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
+        <ul class="mobile-menu">
+          <li><a class="menuItem" href="#Profile">Profile</a></li>
+          <li><a class="menuItem" href="#About">About</a></li>
+          <li><a class="menuItem" href="#contact">Contacts</a></li>
+        </ul>
+
         <ul class="nav-links">
           <li class="links">Portfolio</li>
           <li class="links">About</li>
@@ -55,7 +65,7 @@
     
   </header>
 
-  <section class="work-section">
+  <section class="work-section" id="Profile">
     <section class="section-label">
        <img class="portfolios" src="./images/Portfolio1.png" alt="Portfolio1">
        <img class="desk-img" src="./images/Desktop1.png" alt="desk-img-1">
@@ -165,7 +175,7 @@
     </section>
   </section>
 
-  <section class="about-section">
+  <section class="about-section" id="About">
     <section class="about">
 
       <h2 class="title">About <br> Myself</h2>
@@ -232,7 +242,7 @@
   </section>
 
   <section class="formx">
-    <div class="contact-form">
+    <div class="contact-form" id="contact">
       <h2 class="contact-title">Contact me</h2>
       <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
       <div class="form">
@@ -250,6 +260,6 @@
       </div>
     </div>
   </section>
-  
+  <script src="app.js"></script>
 </body>
 </html>

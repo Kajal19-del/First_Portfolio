@@ -38,9 +38,11 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+- [Key Features](#key-features)
 - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -57,6 +59,18 @@ The goal of this project is to build a straightforward, responsive, single-page 
 - HTML & CSS
 - Git, Github and Visual Studio Code
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[I implement DOM in this project]**
+- **[I get help material icon]**
+- **[I create this design with help of Figma]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,6 +127,20 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/matee-safi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/matee-safi-755421243/)
 
+👤 **Adil**
+
+- GitHub: [@githubhandle](https://github.com/nxn404-n)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[It will upgrade with react framework]**
+- [ ] **[I will use Tailwind css in this project]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
