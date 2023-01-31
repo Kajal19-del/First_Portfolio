@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kajal full-stack webdeveloper</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   
@@ -13,7 +14,17 @@
     <nav>
       <div class="nav-bar">
         <a href="#" class="logo">Kajal</a>
-        <a href="#" class="hambug-menu"><img src="./images/menu.svg" alt="menu"></a>
+        <button class="hambug-menu">
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
+        <ul class="mobile-menu">
+          <li><a class="menuItem" href="#">Home</a></li>
+          <li><a class="menuItem" href="#">Profile</a></li>
+          <li><a class="menuItem" href="#">About</a></li>
+          <li><a class="menuItem" href="#">Contacts</a></li>
+        </ul>
+
         <ul class="nav-links">
           <li class="links">Portfolio</li>
           <li class="links">About</li>
