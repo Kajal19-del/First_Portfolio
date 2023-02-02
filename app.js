@@ -148,7 +148,7 @@ seeProject.forEach((item) => {
           <div class="label-inside">
             <div class="popTitle">
               <h2 class="section-title">Tonic</h2>
-              <img class="crossblack" src="./images/croslack.png" alt="crossblack" onclick="popUp.classList.toggle('hide')">
+              <img class="crossblack" src="./images/crossblack.png" alt="crossblack" onclick="popUp.classList.toggle('hide')">
             </div>
             <div class="section-options">
               <h3 class="optionBold">${card[0].canopy[0]}</h3>
