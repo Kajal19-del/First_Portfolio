@@ -132,7 +132,6 @@ const popUp = document.getElementById('popUp');
 seeProject.forEach((item) => {
   item.addEventListener('click', () => {
     const name = parseInt(item.getAttribute('name'), 10);
-    console.log('Hello World');
 
     const card = workCards.filter((it) => {
       if (it.id === name) {
