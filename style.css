@@ -739,8 +739,7 @@ form {
     flex-direction: column;
     gap: 12px;
   }
-
-
+  
   /* ============ About Section ============ */
   .about-section {
     display: flex;
