@@ -196,6 +196,7 @@ contactBtn.addEventListener('click', (e) => {
   const { email } = form.elements;
 
   if (email.value !== email.value.toLowerCase()) {
+    warning.style.padding = '10px'
     warning.innerHTML = `
       Please type the email in lowercase!
     `;
