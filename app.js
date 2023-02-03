@@ -146,7 +146,7 @@ seeProject.forEach((item) => {
           
           <div class="label-inside">
             <div class="popTitle">
-              <h2 class="section-title">Tonic</h2>
+              <h2 class="section-title">${card[0].title}</h2>
               <img class="crossblack" src="./images/crossblack.png" alt="crossblack" onclick="popUp.classList.toggle('hide')">
             </div>
             <div class="section-options">
@@ -156,8 +156,8 @@ seeProject.forEach((item) => {
               <span class="dot"></span>
               <h3 class="options">${card[0].canopy[2]}</h3>
             </div>
-            <img class="portfolios" src="./images/Portfolio1.png" alt="card1">
-            <img class="desk-img" src="./images/Desktop1.png" alt="card1">
+            <img class="portfolios" src=${card[0].imageMob} alt="card1">
+            <img class="desk-img popup-img" src=${card[0].imageDesk} alt="card1">
             <div class="deskColum">
               <p class="section-text cardParaMob">${card[0].para}</p>
               <p class="section-text cardParaDesk">${card[0].para2}</p>
