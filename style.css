@@ -649,6 +649,10 @@ form {
 
   .desk-img {
     display: block;
+    width: 50%;
+  }
+
+  .popup-img {
     width: 100%;
   }
 
