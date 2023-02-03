@@ -555,6 +555,8 @@ form {
   font-weight: 600;
   display: flex;
   justify-content: center;
+  margin: 20px auto;
+  border-radius: 8px;
 }
 
 /* ============ button effects ============ */
