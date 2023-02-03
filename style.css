@@ -549,6 +549,14 @@ form {
   padding: 12px;
 }
 
+.warning {
+  background-color: #DC143C;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
 /* ============ button effects ============ */
 .form-button:hover {
   background: #5564eb;
