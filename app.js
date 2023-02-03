@@ -218,12 +218,12 @@ function fillDatas() {
   storageData = JSON.parse(storageData);
   document.getElementById('form-name').value = storageData.name;
   document.getElementById('form-email').value = storageData.email;
-  document.getElementById('text-area').value = storageData.text-area;
+  document.getElementById('text-area').value = storageData.textArea;
 }
 
 function populateDatas() {
   formData.name = document.getElementById('form-name').value;
-  formData.email = document.getElementById('email').value;
+  formData.email = document.getElementById('form-email').value;
   formData.textArea = document.getElementById('text-area').value;
   localStorage.setItem('form-data', JSON.stringify(formData));
   fillDatas();
